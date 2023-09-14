@@ -1645,7 +1645,6 @@ print(" \033[36m ░█▀▀▀█ █▀▀█ ░█▀▀▀█ ░█─░
 print(" ─▄▄▄▀▀ ──▀▄ ─▀▀▀▄▄ ░█─░█ ░█─── ░█▀▄─ ")
 primt(" ░█▄▄▄█ █▄▄█ ░█▄▄▄█ ─▀▄▄▀ ░█▄▄█ ░█─░█ \033[36 ") 
 print("     ")
-
 parser = argparse.ArgumentParser(
     usage="python3 %(prog)s --sexo M --idade 20",
     description="Gere dados de pessoas aleátorios para sua sock puppet."
