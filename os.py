@@ -1643,7 +1643,7 @@ os.system("clear")
 
 print(" \033[36m ░█▀▀▀█ █▀▀█ ░█▀▀▀█ ░█─░█ ░█▀▀█ ░█─▄▀ ") 
 print(" ─▄▄▄▀▀ ──▀▄ ─▀▀▀▄▄ ░█─░█ ░█─── ░█▀▄─ ")
-primt(" ░█▄▄▄█ █▄▄█ ░█▄▄▄█ ─▀▄▄▀ ░█▄▄█ ░█─░█ \033[36 ") 
+print(" ░█▄▄▄█ █▄▄█ ░█▄▄▄█ ─▀▄▄▀ ░█▄▄█ ░█─░█ \033[36m")
 print("     ")
 parser = argparse.ArgumentParser(
     usage="python3 %(prog)s --sexo M --idade 20",
