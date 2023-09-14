@@ -1641,15 +1641,11 @@ from colorama import Fore, Style
 
 os.system("clear")
 
-banner = (Style.BRIGHT + """
+print(" \033[36m ░█▀▀▀█ █▀▀█ ░█▀▀▀█ ░█─░█ ░█▀▀█ ░█─▄▀") 
+print(" ─▄▄▄▀▀ ──▀▄ ─▀▀▀▄▄ ░█─░█ ░█─── ░█▀▄─ ")
+primt(" ░█▄▄▄█ █▄▄█ ░█▄▄▄█ ─▀▄▄▀ ░█▄▄█ ░█─░█ \033[36 ") 
+print("     ")
 
-╭━━━━┳━━━┳━━━━╮╭━━━┳╮╱╭┳━━━┳━━━┳━━━┳━━━━╮
-╰━━╮━┃╭━╮┣━━╮━┃┃╭━╮┃┃╱┃┃╭━╮┃╭━╮┃╭━━┫╭╮╭╮┃
-╱╱╭╯╭┻╯╭╯┃╱╭╯╭╯┃╰━╯┃┃╱┃┃╰━╯┃╰━╯┃╰━━╋╯┃┃╰╯
-╱╭╯╭╯╭╮╰╮┃╭╯╭╯╱┃╭━━┫┃╱┃┃╭━━┫╭━━┫╭━━╯╱┃┃
-╭╯━╰━┫╰━╯┣╯━╰━╮┃┃╱╱┃╰━╯┃┃╱╱┃┃╱╱┃╰━━╮╱┃┃
-╰━━━━┻━━━┻━━━━╯╰╯╱╱╰━━━┻╯╱╱╰╯╱╱╰━━━╯╱╰╯
-                                  v2.0\n""")
 parser = argparse.ArgumentParser(
     usage="python3 %(prog)s --sexo M --idade 20",
     description="Gere dados de pessoas aleátorios para sua sock puppet."
