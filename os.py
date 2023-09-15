@@ -1641,10 +1641,10 @@ from colorama import Fore, Style
 
 os.system("clear")
 
-print(" \033[36m ░█▀▀▀█ █▀▀█ ░█▀▀▀█ ░█─░█ ░█▀▀█ ░█─▄▀ ") 
-print(" ─▄▄▄▀▀ ──▀▄ ─▀▀▀▄▄ ░█─░█ ░█─── ░█▀▄─ ")
-print(" ░█▄▄▄█ █▄▄█ ░█▄▄▄█ ─▀▄▄▀ ░█▄▄█ ░█─░█ \033[36m")
-print("por:__s4___s4____ github       v1.0     ")
+print("\033[36m░█▀▀▀█ █▀▀█ ░█▀▀▀█ ░█─░█ ░█▀▀█ ░█─▄▀") 
+print("─▄▄▄▀▀ ──▀▄ ─▀▀▀▄▄ ░█─░█ ░█─── ░█▀▄─")
+print("░█▄▄▄█ █▄▄█ ░█▄▄▄█ ─▀▄▄▀ ░█▄▄█ ░█─░█\033[36m")
+print("author:__s4___s4____")
 parser = argparse.ArgumentParser(
     usage="python3 %(prog)s --sexo M --idade 20",
     description="Gere dados de pessoas aleátorios para sua sock puppet."
