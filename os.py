@@ -1644,7 +1644,7 @@ os.system("clear")
 print("\033[36m░█▀▀▀█ █▀▀█ ░█▀▀▀█ ░█─░█ ░█▀▀█ ░█─▄▀") 
 print("─▄▄▄▀▀ ──▀▄ ─▀▀▀▄▄ ░█─░█ ░█─── ░█▀▄─")
 print("░█▄▄▄█ █▄▄█ ░█▄▄▄█ ─▀▄▄▀ ░█▄▄█ ░█─░█\033[36m")
-print("author:__s4___s4____")
+print("author:@__s4__s4")
 parser = argparse.ArgumentParser(
     usage="python3 %(prog)s --sexo M --idade 20",
     description="Gere dados de pessoas aleátorios para sua sock puppet."
