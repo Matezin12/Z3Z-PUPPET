@@ -1658,7 +1658,7 @@ def gerar_pessoa(sexo, idade):
     url = "https://www.4devs.com.br/ferramentas_online.php"
     data = {"acao":"gerar_pessoa","txt_qtde":"1","idade":idade,"sexo":sexo}
 
-    print(banner)
+    
     response = requests.post(url, data=data)
     dados = response.json()
     print("[-] NOME:", dados[0]["nome"])
@@ -1682,7 +1682,8 @@ def gerar_pessoa(sexo, idade):
     print("[-] CELULAR:", dados[0]["celular"])
     print("[-] ALTURA E PESO:", dados[0]["altura"] + "h", "-", str(dados[0]["peso"]) + "kg")
     print("[-] TIPO SANGUINEO:", dados[0]["tipo_sanguineo"])
-    print("[-] COR FAVORITA: /033[31m ", dados[0]["cor"])
+    print("[-] COR FAVORITA: \033[31m", dados[0]["cor"])
+
 
 if __name__ == "__main__":
     gerar_pessoa(args.sexo, args.idade)
